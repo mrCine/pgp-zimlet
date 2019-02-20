@@ -53,6 +53,13 @@ along with this program.  If not, see http://www.gnu.org/licenses/.
  overflow: hidden;
 }
 
+.Imgtk_barrydegraaff_zimbra_openpgp-submit {
+ background: url("submit.png") no-repeat 0 0;
+ width: 18px;
+ height: 18px;
+ overflow: hidden;
+}
+
 .Imgtk_barrydegraaff_zimbra_openpgp-file-pgp-encrypted {
  background: url("file-pgp-encrypted.png") no-repeat 0 0;
  width: 18px;
@@ -66,14 +73,23 @@ along with this program.  If not, see http://www.gnu.org/licenses/.
    width:98%;
    background-size: 48px 48px;
    background: url("") center top no-repeat;
+   background-color: white;
 }
 
 .barrydegraaff_zimbra_openpgp-input textarea{
    height:50px;
+   background-color: white;   
+}
+
+#pubKeySelect option
+{
+   padding: 3px;
+   padding-left: 5px;
 }
 
 .DwtDialog textarea{
    width:98%;
+   font-family: monospace !important;
 }
 
 #passphraseInput {
@@ -87,12 +103,9 @@ along with this program.  If not, see http://www.gnu.org/licenses/.
    height: 200px;
    background-size: 48px 48px;
    background: url("") center top no-repeat;
+   font-family: monospace;   
 }
 
-.tk_barrydegraaff_zimbra_openpgp_infobar_body, .tk_barrydegraaff_zimbra_openpgp_infobar, .tk_barrydegraaff_zimbra_openpgp_actionbar
-{
-   margin: 6px;
-}
 .tk_barrydegraaff_zimbra_openpgp_infobar_body
 {
 font-family: monospace;
